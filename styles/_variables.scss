@@ -2,6 +2,21 @@
 
 $font-family-theme: 'Poppins', sans-serif; // Custom font for the theme - imported in _typography
 
+// Colors
+// Variables for custom color names. Use to customize Bootstrap color variables.
+
+// UT Theme
+$color-burnt-orange: #BF5700;
+$color-charcoal: #333F48;
+$color-tangerine: #F8971F;
+$color-sunshine: #FFD600;
+$color-cactus: #A6CD57;
+$color-turtle-pond: #579D42;
+$color-turquoise: #00a9b7;
+$color-bluebonnet: #005F86;
+$color-shade: #9CADB7;
+$color-limestone: #D6D2C4;
+
 // === Bootstrap Variable Overrides ===
 
 // Variables
@@ -42,16 +57,16 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
+$blue:    $color-bluebonnet; // Custom
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$purple:  $color-shade; // Custom
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
+$orange:  $color-burnt-orange; // Custom
+$yellow:  $color-sunshine; // Custom
+$green:   $color-turtle-pond; // Custom
 $teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$cyan:    $color-turquoise; // Custom
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -304,14 +319,14 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $orange; // Custom
+$secondary:     $color-charcoal; // Custom
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$light:         $color-limestone; // Custom
+$dark:          $color-charcoal; // Custom
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -441,8 +456,8 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-text-align:           null !default;
-$body-color:                $gray-900 !default;
-$body-bg:                   $white; // Custom
+$body-color:                $light; // Custom
+$body-bg:                   $dark; // Custom
 
 $body-secondary-color:      rgba($body-color, .75) !default;
 $body-secondary-bg:         $gray-200 !default;

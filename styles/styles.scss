@@ -1,0 +1,16 @@
+// ===== Style Imports =====
+
+// === Bootstrap Functions ===
+// Required before custom variables
+@import "bootstrap/scss/functions";
+
+// === Custom Variables ===
+// Override default Bootstrap Variables
+@import "variables";
+
+// === Bootstrap Components ===
+@import "bootstrap";
+
+// === Imports ===
+@import "elements";
+@import "typography";

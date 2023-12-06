@@ -22,7 +22,7 @@ export default function Home() {
           I now live in NW Austin with my wife, Dina.
         </p>
 
-        <h2>
+        <h2 className="text-uppercase">
           Locum Tenens
         </h2>
 
@@ -30,29 +30,33 @@ export default function Home() {
           A current professional goal is to work as a Locum Tenens dentist with an upbeat team of fully trained auxiliary staff, helping me to be an effective "plug and play" dentist for Senior Dentists or Associates looking to take time off for C.E., Vacation, or unforeseen circumstances.
         </p>
 
-        <h3 className="">
+        <h5 className="text-uppercase">
           Restorative
-        </h3>
+        </h5>
 
-        <h3 className="">
+        <h5 className="text-uppercase">
           Prosthetics
-        </h3>
+        </h5>
 
-        <h3 className="">
+        <h5 className="text-uppercase">
           Esthetics
-        </h3>
+        </h5>
 
-        <h3 className="">
+        <h5 className="text-uppercase">
           Pediatrics
-        </h3>
+        </h5>
 
-        <h3 className="">
+        <h5 className="text-uppercase">
           Oral Surgery
-        </h3>
+        </h5>
 
       </main>
 
       <Footer />
+
+      <section class="l-background">
+
+      </section>
 
     </div>
   )

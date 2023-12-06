@@ -13,13 +13,10 @@ export default function Home() {
       <main className="container py-4">
         <Header title="Stephen L. Parker, DDS" />
         <p className="description">
-          General Dentist with 41 yrs of experience in Comprehensive Dentistry in the DFW Metroplex.
+          General Dentist with 41 yrs of experience in Comprehensive Dentistry.
         </p>
         <p>
-          By focusing on family, community, and integrity, I have earned lifelong generations of patients, many who followed me from my 27 years in Irving, to my Grapevine practice in 2007.
-        </p>
-        <p>
-          I sold my practice 2 years ago and have completed my contract in DFW.
+          By focusing on family, community, and integrity, I have earned lifelong generations of patients.
         </p>
         <p>
           I now live in NW Austin with my wife, Dina.

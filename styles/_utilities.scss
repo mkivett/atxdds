@@ -1,0 +1,10 @@
+// ===== Utilities =====
+// Styles for common utility functionality
+
+// Cover Image
+// Image that fills available space cropped with object-fit: cover
+.image-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

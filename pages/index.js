@@ -13,7 +13,7 @@ export default function Home() {
       <main className="container py-5">
         <Header title="Stephen L. Parker, DDS" />
         <p className="description">
-          General Dentist with 41 yrs of experience in Comprehensive Dentistry.
+          General Dentist with 42 yrs of experience in Comprehensive Dentistry.
         </p>
         <p>
           By focusing on family, community, and integrity, I have earned lifelong generations of patients.

@@ -41,9 +41,6 @@ export default function Home() {
               <h5 className="text-uppercase text-light">
                 Restorative
               </h5>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus distinctio fuga explicabo, illum ex ut, at accusantium rem qui nemo incidunt nostrum suscipit voluptate atque rerum omnis deleniti autem doloremque.
-              </p>
             </figure>
           </div>
 
@@ -64,9 +61,6 @@ export default function Home() {
               <h5 className="text-uppercase text-light">
                 Prosthetics
               </h5>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus distinctio fuga explicabo, illum ex ut, at accusantium rem qui nemo incidunt nostrum suscipit voluptate atque rerum omnis deleniti autem doloremque.
-              </p>
             </figure>
           </div>
 
@@ -79,9 +73,6 @@ export default function Home() {
               <h5 className="text-uppercase text-light">
                 Esthetics
               </h5>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus distinctio fuga explicabo, illum ex ut, at accusantium rem qui nemo incidunt nostrum suscipit voluptate atque rerum omnis deleniti autem doloremque.
-              </p>
             </figure>
           </div>
 
@@ -102,9 +93,6 @@ export default function Home() {
               <h5 className="text-uppercase text-light">
                 Pediatrics
               </h5>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus distinctio fuga explicabo, illum ex ut, at accusantium rem qui nemo incidunt nostrum suscipit voluptate atque rerum omnis deleniti autem doloremque.
-              </p>
             </figure>
           </div>
 
@@ -117,9 +105,6 @@ export default function Home() {
               <h5 className="text-uppercase text-light">
                 Oral Surgery
               </h5>
-              <p class="m-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus distinctio fuga explicabo, illum ex ut, at accusantium rem qui nemo incidunt nostrum suscipit voluptate atque rerum omnis deleniti autem doloremque.
-              </p>
             </figure>
           </div>
 

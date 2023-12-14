@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <section className="l-footer">
+      <section className="section-footer">
       <footer className="container">
         <p className="small">
           References Available On Request

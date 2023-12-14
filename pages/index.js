@@ -118,7 +118,7 @@ export default function Home() {
 
       <Footer />
 
-      <section class="l-background">
+      <section class="section-background">
 
       </section>
 

@@ -8,7 +8,7 @@ export default function Footer() {
           </p>
           <a href="tel:8173128561" className="small">
               817-312-8561
-            </a>
+          </a>
           <img
             src="/images/stephen-parker--portrait.svg"
             alt="Stephen L Parker, DDS"

@@ -1,9 +1,24 @@
 // ===== Utilities =====
 // Styles for common utility functionality
 
-// Cover Image
-// Image that fills available space cropped with object-fit: cover
-.image-cover {
+
+// Filters
+
+.filter-grayscale {
+    filter: grayscale(1);
+}
+
+
+// Mix Blend Modes
+
+.mix-blend-mode-luminosity {
+    mix-blend-mode: luminosity;
+}
+
+
+// Object Fit
+
+.object-fit-cover {
     width: 100%;
     height: 100%;
     object-fit: cover;

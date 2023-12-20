@@ -54,7 +54,7 @@ export default function Home() {
           </div>
 
           <div class="col-lg-7 p-0">
-            <img class="image-cover" src="https://picsum.photos/seed/1/960/540.jpg?grayscale&blur=5" />
+            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-restorative.jpg" />
           </div>
 
         </div>
@@ -62,7 +62,7 @@ export default function Home() {
         <div class="row bg-gradient">
 
           <div class="col-lg-7 p-0">
-              <img class="image-cover" src="https://picsum.photos/seed/2/960/540.jpg?grayscale&blur=5" />
+             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
           </div>
 
           <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           <div class="col-lg-7 p-0">
-            <img class="image-cover" src="https://picsum.photos/seed/3/960/540.jpg?grayscale&blur=5" />
+            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-esthetics.jpg" />
           </div>
 
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
         <div class="row bg-gradient">
 
           <div class="col-lg-7 p-0">
-              <img class="image-cover" src="https://picsum.photos/seed/4/960/540.jpg?grayscale&blur=5" />
+            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
           </div>
 
           <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
 
           <div class="col-lg-7 p-0">
-            <img class="image-cover" src="https://picsum.photos/seed/5/960/540.jpg?grayscale&blur=5" />
+            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-oral-surgery.jpg" />
           </div>
 
         </div>

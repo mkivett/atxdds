@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="py-5">
+    <div className="">
       <Head>
         <title>Stephen L. Parker, DDS</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,7 +12,7 @@ export default function Home() {
 
       <Header title="Stephen L. Parker, DDS" />
 
-      <main className="container mb-4">
+      <main className="container py-4">
         <p className="description">
           General Dentist with 42 yrs of experience in Comprehensive Dentistry.
         </p>
@@ -41,7 +41,7 @@ export default function Home() {
 
       </main>
 
-      <section class="l-services container-fluid mb-4">
+      <section class="l-services container-fluid py-4">
 
         <div class="row bg-gradient">
 

@@ -22,8 +22,16 @@
 // === Header ===
 // Header Component
 .section-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba($secondary, 0.95);
+    border-bottom: 1px solid $primary;
+    @extend .shadow !optional;
 
     .logo {
         width: 9rem;

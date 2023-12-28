@@ -23,29 +23,33 @@ export default function Home() {
           I now live in Austin with my wife, Dina.
         </p>
 
-        <h2 className="text-uppercase">
-          Locum Tenens
-        </h2>
+        <header id="section-locum-tenens" className="d-flex align-items-center justify-content-between">
 
-        <div className="icon-pin">
+          <h4 className="text-uppercase">
+            Locum Tenens
+          </h4>
 
-        </div>
+          <h6 className="text-uppercase">
+            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Central Texas
+          </h6>
+
+        </header>
 
         <p>
           A current professional goal is to work as a Locum Tenens dentist with an upbeat team of fully trained auxiliary staff, helping me to be an effective "plug and play" dentist for Senior Dentists or Associates looking to take time off for C.E., Vacation, or unforeseen circumstances.
         </p>
 
-        <a href="/steve-parker-resume.pdf" target="_blank" className="small">
+        <a href="/steve-parker-resume.pdf" target="_blank" className="small text-uppercase">
             View My Résumé
         </a>
 
       </main>
 
-      <section class="l-services container-fluid py-4">
+      <section class="l-services container-fluid mb-4">
 
         <div class="row bg-gradient">
 
-          <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
+          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
             <figure class="">
               <h5 className="text-uppercase text-light">
                 Restorative
@@ -53,7 +57,7 @@ export default function Home() {
             </figure>
           </div>
 
-          <div class="col-lg-7 p-0">
+          <div class="col-sm-7 p-0">
             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-restorative.jpg" />
           </div>
 
@@ -61,11 +65,7 @@ export default function Home() {
 
         <div class="row bg-gradient">
 
-          <div class="col-lg-7 p-0">
-             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
-          </div>
-
-          <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
+          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
             <figure class="">
               <h5 className="text-uppercase text-light">
                 Prosthetics
@@ -73,11 +73,15 @@ export default function Home() {
             </figure>
           </div>
 
+          <div class="col-sm-7 p-0 order-sm-first">
+             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
+          </div>
+
         </div>
 
         <div class="row bg-gradient">
 
-          <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
+          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
             <figure class="">
               <h5 className="text-uppercase text-light">
                 Esthetics
@@ -85,7 +89,7 @@ export default function Home() {
             </figure>
           </div>
 
-          <div class="col-lg-7 p-0">
+          <div class="col-sm-7 p-0">
             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-esthetics.jpg" />
           </div>
 
@@ -93,11 +97,7 @@ export default function Home() {
 
         <div class="row bg-gradient">
 
-          <div class="col-lg-7 p-0">
-            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
-          </div>
-
-          <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
+          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
             <figure class="">
               <h5 className="text-uppercase text-light">
                 Pediatrics
@@ -105,11 +105,15 @@ export default function Home() {
             </figure>
           </div>
 
+          <div class="col-sm-7 p-0 order-sm-first">
+            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
+          </div>
+
         </div>
 
         <div class="row bg-gradient">
 
-          <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center p-5">
+          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
             <figure class="">
               <h5 className="text-uppercase text-light">
                 Oral Surgery
@@ -117,7 +121,7 @@ export default function Home() {
             </figure>
           </div>
 
-          <div class="col-lg-7 p-0">
+          <div class="col-sm-7 p-0">
             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-oral-surgery.jpg" />
           </div>
 

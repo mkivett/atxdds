@@ -28,13 +28,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgba($secondary, 0.95);
     border-bottom: 1px solid $primary;
     @extend .shadow !optional;
 
     .logo {
-        width: 9rem;
+        width: 6rem;
+        margin-right: 1rem;
+        transition: $transition-base;
+
+        &:hover, &:focus {
+            filter: grayscale(1);
+            mix-blend-mode: luminosity;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        padding: 2rem;
+
+        .logo {
+            width: 9rem;
+        }
     }
 }
 

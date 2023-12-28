@@ -20,7 +20,7 @@ export default function Home() {
           By focusing on family, community, and integrity, I have earned lifelong generations of patients.
         </p>
         <p>
-          I now live in NW Austin with my wife, Dina.
+          I now live in Austin with my wife, Dina.
         </p>
 
         <h2 className="text-uppercase">

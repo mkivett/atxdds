@@ -26,6 +26,7 @@
     top: 0;
     z-index: 999;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -45,6 +46,7 @@
     }
 
     @include media-breakpoint-up(md) {
+        flex-direction: row; // Horizontal layout for larger screens
         padding: 2rem;
 
         .logo {

@@ -30,7 +30,7 @@ export default function Home() {
           </h4>
 
           <h6 className="text-uppercase">
-            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Central Texas
+            <i className="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Central Texas
           </h6>
 
         </header>
@@ -45,84 +45,84 @@ export default function Home() {
 
       </main>
 
-      <section class="l-services container-fluid mb-4">
+      <section className="l-services container-fluid mb-4">
 
-        <div class="row bg-gradient">
+        <div className="row bg-gradient">
 
-          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
-            <figure class="">
+          <div className="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
+            <figure className="">
               <h5 className="text-uppercase text-light">
                 Restorative
               </h5>
             </figure>
           </div>
 
-          <div class="col-sm-7 p-0">
-            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-restorative.jpg" />
+          <div className="col-sm-7 p-0">
+            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-restorative.jpg" />
           </div>
 
         </div>
 
-        <div class="row bg-gradient">
+        <div className="row bg-gradient">
 
-          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
-            <figure class="">
+          <div className="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
+            <figure className="">
               <h5 className="text-uppercase text-light">
                 Prosthetics
               </h5>
             </figure>
           </div>
 
-          <div class="col-sm-7 p-0 order-sm-first">
-             <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
+          <div className="col-sm-7 p-0 order-sm-first">
+             <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
           </div>
 
         </div>
 
-        <div class="row bg-gradient">
+        <div className="row bg-gradient">
 
-          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
-            <figure class="">
+          <div className="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
+            <figure className="">
               <h5 className="text-uppercase text-light">
                 Esthetics
               </h5>
             </figure>
           </div>
 
-          <div class="col-sm-7 p-0">
-            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-esthetics.jpg" />
+          <div className="col-sm-7 p-0">
+            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-esthetics.jpg" />
           </div>
 
         </div>
 
-        <div class="row bg-gradient">
+        <div className="row bg-gradient">
 
-          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
-            <figure class="">
+          <div className="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
+            <figure className="">
               <h5 className="text-uppercase text-light">
                 Pediatrics
               </h5>
             </figure>
           </div>
 
-          <div class="col-sm-7 p-0 order-sm-first">
-            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
+          <div className="col-sm-7 p-0 order-sm-first">
+            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
           </div>
 
         </div>
 
-        <div class="row bg-gradient">
+        <div className="row bg-gradient">
 
-          <div class="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
-            <figure class="">
+          <div className="col-sm-5 d-flex flex-column align-items-center justify-content-center p-5">
+            <figure className="">
               <h5 className="text-uppercase text-light">
                 Oral Surgery
               </h5>
             </figure>
           </div>
 
-          <div class="col-sm-7 p-0">
-            <img class="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-oral-surgery.jpg" />
+          <div className="col-sm-7 p-0">
+            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-oral-surgery.jpg" />
           </div>
 
         </div>
@@ -131,7 +131,7 @@ export default function Home() {
 
       <Footer />
 
-      <section class="section-background">
+      <section className="section-background">
 
       </section>
 

@@ -2,7 +2,9 @@ export default function Header({ title }) {
   return (
     <header className="section-header container-fluid">
       <section className="d-flex align-items-center">
-        <img class="logo" src="/atxdds-logo.svg" />
+        <a href="#" className="nav-link">
+          <img class="logo" src="/atxdds-logo.svg" />
+        </a>
         <h3 className="m-0 text-uppercase text-primary">{title}</h3>
       </section>
 

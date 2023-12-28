@@ -11,8 +11,11 @@
 // === Bootstrap Components ===
 @import "bootstrap";
 
-// === Imports ===
+// === Custom Style Imports ===
 @import "components";
 @import "elements";
 @import "typography";
 @import "utilities";
+
+// === Vendors ===
+@import "fontawesome";

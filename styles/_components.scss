@@ -30,9 +30,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: rgba($secondary, 0.95);
-    border-bottom: 1px solid $primary;
-    @extend .shadow !optional;
+    // background-color: rgba($secondary, 0.95);
+    // border-bottom: 1px solid $primary;
+    // @extend .shadow !optional;
+    @extend .bg-gradient !optional;
 
     .logo {
         width: 6rem;

@@ -17,7 +17,7 @@ export default function Home() {
 
       <main id="section-main" className="section-main">
         <div className="container">
-          <p className="description">
+          <p>
             General Dentist with 42 yrs of experience in Comprehensive Dentistry.
           </p>
           <p>

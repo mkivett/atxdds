@@ -46,25 +46,39 @@
     // @extend .shadow !optional;
     @extend .bg-gradient !optional;
 
-    .logo {
-        width: 6rem;
-        margin-right: 1rem;
-        transition: $transition-base;
-
-        &:hover, &:focus {
-            // filter: grayscale(1);
-            // mix-blend-mode: luminosity;
-            transform: scale(1.2);
-        }
-    }
-
     @include media-breakpoint-up(md) {
         flex-direction: row; // Horizontal layout for larger screens
         padding: 2rem;
+    }
 
-        .logo {
-            width: 9rem;
+    .logo {
+        display: flex;
+        align-items: center;
+
+        &:hover, &.focus {
+
+            .logo_image {
+                transform: scale(1.2);
+            }
+
         }
+
+        .logo_image {
+            width: 6rem;
+            margin-right: 1rem;
+            transition: $transition-base;
+        }
+
+        @include media-breakpoint-up(md) {
+            .logo_image {
+                width: 9rem !important;
+            }
+        }
+    }
+
+
+    .nav-link:hover, .nav-link:focus {
+        transform: scale(1.2);
     }
 }
 

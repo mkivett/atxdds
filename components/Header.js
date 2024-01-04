@@ -2,10 +2,10 @@ export default function Header({ title }) {
   return (
     <header className="section-header container-fluid">
       <section className="d-flex align-items-center">
-        <a href="#" className="nav-link">
-          <img className="logo" src="/atxdds-logo.svg" />
+        <a href="#" className="logo">
+          <img className="logo_image" src="/atxdds-logo.svg" />
+          <h3 className="m-0 text-uppercase">{title}</h3>
         </a>
-        <h3 className="m-0 text-uppercase text-primary">{title}</h3>
       </section>
 
       <nav className="section-nav nav">

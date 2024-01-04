@@ -16,6 +16,7 @@
     filter: grayscale(1);
     mix-blend-mode: multiply;
     background-position: center;
+    @extend .animation-breathe !optional;
 }
 
 

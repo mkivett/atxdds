@@ -29,6 +29,11 @@
 
 // Mix Blend Modes
 
-.mix-blend-mode-luminosity {
-    mix-blend-mode: luminosity;
+.mix-blend-mode {
+    &-luminosity {
+        mix-blend-mode: luminosity;
+    }
+    &-screen {
+        mix-blend-mode: screen;
+    }
 }

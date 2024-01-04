@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <section className="section-footer">
+      <section id="section-footer" className="section-footer">
         <footer className="container">
 
           <nav className="section-nav">
@@ -13,7 +13,7 @@ export default function Footer() {
                 <i className="fa-solid fa-envelope me-1"></i>driller1207@gmail.com
               </a>
               <br />
-              <a href="#section-main" className="" title="Location: Central Texas">
+              <a href="#section-footer" className="" title="Location: Central Texas">
                 <i className="fa-solid fa-location-dot me-1"></i>Central Texas
               </a>
           </nav>

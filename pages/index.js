@@ -13,7 +13,7 @@ export default function Home() {
 
       <Header title="Stephen L. Parker, DDS" />
 
-      <main className="container py-4">
+      <main id="section-main" className="section-main container py-4">
         <p className="description">
           General Dentist with 42 yrs of experience in Comprehensive Dentistry.
         </p>

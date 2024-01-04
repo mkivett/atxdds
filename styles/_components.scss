@@ -68,6 +68,17 @@
 }
 
 
+// === Section - Main ===
+// Main Content Section
+
+.section-main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 9rem; // Offset for sticky header
+}
+
+
 // === Portrait ===
 .section-portrait {
     position: absolute;

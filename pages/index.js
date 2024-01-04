@@ -44,7 +44,7 @@ export default function Home() {
           </p>
 
           <a href="/steve-parker-resume.pdf" target="_blank" className="small text-uppercase">
-              View My Résumé
+            <i className="fa-solid fa-file-lines"></i>&nbsp;&nbsp;View My Résumé
           </a>
         </div>
       </main>

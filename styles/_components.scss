@@ -52,8 +52,9 @@
         transition: $transition-base;
 
         &:hover, &:focus {
-            filter: grayscale(1);
-            mix-blend-mode: luminosity;
+            // filter: grayscale(1);
+            // mix-blend-mode: luminosity;
+            transform: scale(1.2);
         }
     }
 

@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <>
-      <section className="l-services container-fluid mb-4">
+      <section className="section-services container-fluid mb-4">
 
         <div className="row bg-gradient">
 
@@ -14,7 +14,7 @@ export default function Services() {
           </div>
 
           <div className="col-sm-7 p-0">
-            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-restorative.jpg" />
+            <img className="services_image" src="/images/service-restorative.jpg" />
           </div>
 
         </div>
@@ -30,7 +30,7 @@ export default function Services() {
           </div>
 
           <div className="col-sm-7 p-0 order-sm-first">
-             <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-prosthetics.jpg" />
+             <img className="services_image" src="/images/service-prosthetics.jpg" />
           </div>
 
         </div>
@@ -46,7 +46,7 @@ export default function Services() {
           </div>
 
           <div className="col-sm-7 p-0">
-            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-esthetics.jpg" />
+            <img className="services_image" src="/images/service-esthetics.jpg" />
           </div>
 
         </div>
@@ -62,7 +62,7 @@ export default function Services() {
           </div>
 
           <div className="col-sm-7 p-0 order-sm-first">
-            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-pediatrics.jpg" />
+            <img className="services_image" src="/images/service-pediatrics.jpg" />
           </div>
 
         </div>
@@ -78,7 +78,7 @@ export default function Services() {
           </div>
 
           <div className="col-sm-7 p-0">
-            <img className="object-fit-cover filter-grayscale mix-blend-mode-luminosity" src="/images/service-oral-surgery.jpg" />
+            <img className="services_image" src="/images/service-oral-surgery.jpg" />
           </div>
 
         </div>

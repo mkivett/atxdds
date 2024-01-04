@@ -71,7 +71,6 @@
 
 // === Section - Main ===
 // Main Content Section
-
 .section-main {
     display: flex;
     align-items: center;
@@ -82,16 +81,28 @@
 
 // === Portrait ===
 .section-portrait {
+    z-index: 1;
     position: absolute;
     bottom: 0;
     right: 0;
     width: 50%;
     height: auto;
     mix-blend-mode: overlay;
-    opacity: .5;
+    opacity: .75;
 
     @include media-breakpoint-up(lg) {
         width: auto;
         height: 100%; // Fill full height of container (section-footer)
+    }
+}
+
+
+// === Section - Services ===
+// Services Content Section
+.section-services {
+
+    .services_image {
+        @extend .filter-grayscale !optional;
+        @extend .mix-blend-mode-screen !optional;
     }
 }

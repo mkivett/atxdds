@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Stephen L. Parker, DDS</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Stephen L. Parker, DDS is a General Dentist in Central Texas with over 42 yrs of experience." />
       </Head>
 
       <Header title="Stephen L. Parker, DDS" />

@@ -56,9 +56,20 @@
     }
 }
 
+
+// === Footer ===
+// Footer Component
+.section-footer {
+    position: relative; // Relative for the .section-portrait absolute positioning
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
 // === Portrait ===
 .section-portrait {
     position: absolute;
+    bottom: 0;
     right: 0;
     width: 25%;
     mix-blend-mode: overlay;

@@ -9,10 +9,10 @@ export default function Header({ title }) {
       </section>
 
       <nav className="section-nav nav">
-          <a href="tel:8173128561" className="nav-link" title="Phone">
+          <a href="tel:8173128561" className="nav-link" title="Phone: 817-312-8561">
             <i className="fa-solid fa-phone"></i>
           </a>
-          <a href="mailto:driller1207@gmail.com" className="nav-link" title="Email">
+          <a href="mailto:driller1207@gmail.com" className="nav-link" title="Email: driller1207@gmail.com">
             <i className="fa-solid fa-envelope"></i>
           </a>
           <a href="#section-footer" className="nav-link" title="Location: Central Texas">

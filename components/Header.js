@@ -4,7 +4,7 @@ export default function Header({ title }) {
       <section className="d-flex align-items-center">
         <a href="#" className="logo">
           <img className="logo_image" src="/atxdds-logo.svg" />
-          <h3 className="m-0 text-uppercase">{title}</h3>
+          <h3 className="logo_title m-0 text-uppercase">{title}</h3>
         </a>
       </section>
 

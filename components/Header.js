@@ -9,6 +9,9 @@ export default function Header({ title }) {
       </section>
 
       <nav className="section-nav nav">
+          <a href="/steve-parker-resume.pdf" target="_blank" className="nav-link" title="Résumé">
+            <i className="fa-solid fa-file-lines"></i>
+          </a>
           <a href="tel:8173128561" className="nav-link" title="Phone: 817-312-8561">
             <i className="fa-solid fa-phone"></i>
           </a>

@@ -40,7 +40,7 @@ export default function Home() {
           </header>
 
           <p>
-            A current professional goal is to work as a Locum Tenens dentist with an upbeat team of fully trained auxiliary staff, helping me to be an effective "plug and play" dentist for Senior Dentists or Associates looking to take time off for C.E., Vacation, or unforeseen circumstances.
+            A current professional goal is to work as a Locum Tenens dentist with an upbeat team of fully trained auxiliary staff, helping me to be an effective "plug and play" dentist for Senior Dentists or Associates looking to take time off for C.E., vacation, maternity, or unforeseen circumstances.
           </p>
 
           <a href="/steve-parker-resume.pdf" target="_blank" className="small text-uppercase">

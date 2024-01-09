@@ -116,8 +116,13 @@
 // Services Content Section
 .section-services {
 
-    .services_image {
+    [class^="col-"] {
+        overflow: hidden; // Crop images with animation breath zoom effect
+    }
+
+    .feature_image {
         @extend .filter-grayscale !optional;
         @extend .mix-blend-mode-screen !optional;
+        @extend .animation-breathe !optional;
     }
 }
